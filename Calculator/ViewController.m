@@ -163,6 +163,15 @@
     return result;
 }
 
+- (float)abcX:(float)x {
+    if(x >= 0) {
+        return x;
+    }
+    else {
+        return x * -1;
+    }
+}
+
 - (void)pushResult {
     if([_lastOperator isEqual:@""]) {
         _currentResult = _storedNumber;
@@ -241,7 +250,7 @@
     UIView* view = [self.view viewWithTag:1];
     if(view && [view isMemberOfClass:[UILabel class]]) {
         UILabel* label = (UILabel*) view;
-        if(value - (float)intValue < 0.0000001) {
+        if([self abcX:value - (float)intValue] < 0.0000001) {
             label.text = [NSString stringWithFormat:@"%d", intValue];
         }
         else {

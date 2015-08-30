@@ -26,8 +26,6 @@
 		A6A94DBB1B928FAE00B9E1B4 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A94DB71B928FAE00B9E1B4 /* minus.png */; };
 		A6A94DBC1B928FAE00B9E1B4 /* multiple.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A94DB81B928FAE00B9E1B4 /* multiple.png */; };
 		A6A94DBE1B928FC500B9E1B4 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A94DBD1B928FC500B9E1B4 /* plus.png */; };
-		A6C01A841B900A080070DE46 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C01A831B900A080070DE46 /* NumberButton.m */; };
-		A6C01A871B90216E0070DE46 /* OperatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C01A861B90216E0070DE46 /* OperatorButton.m */; };
 		A6C01A8A1B90236A0070DE46 /* CalculatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C01A891B90236A0070DE46 /* CalculatorButton.m */; };
 		A6D3927E1B90C04200C5B40D /* negative.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D392711B90C04200C5B40D /* negative.png */; };
 		A6D392801B90C04200C5B40D /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D392731B90C04200C5B40D /* number3.png */; };
@@ -74,10 +72,6 @@
 		A6A94DB71B928FAE00B9E1B4 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
 		A6A94DB81B928FAE00B9E1B4 /* multiple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiple.png; sourceTree = "<group>"; };
 		A6A94DBD1B928FC500B9E1B4 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
-		A6C01A821B900A080070DE46 /* NumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberButton.h; sourceTree = "<group>"; };
-		A6C01A831B900A080070DE46 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
-		A6C01A851B90216E0070DE46 /* OperatorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorButton.h; sourceTree = "<group>"; };
-		A6C01A861B90216E0070DE46 /* OperatorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorButton.m; sourceTree = "<group>"; };
 		A6C01A881B90236A0070DE46 /* CalculatorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorButton.h; sourceTree = "<group>"; };
 		A6C01A891B90236A0070DE46 /* CalculatorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorButton.m; sourceTree = "<group>"; };
 		A6D392711B90C04200C5B40D /* negative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negative.png; sourceTree = "<group>"; };
@@ -135,10 +129,6 @@
 				A6A59BEA1B8F4B91005E822C /* ViewController.m */,
 				A6C01A881B90236A0070DE46 /* CalculatorButton.h */,
 				A6C01A891B90236A0070DE46 /* CalculatorButton.m */,
-				A6C01A821B900A080070DE46 /* NumberButton.h */,
-				A6C01A831B900A080070DE46 /* NumberButton.m */,
-				A6C01A851B90216E0070DE46 /* OperatorButton.h */,
-				A6C01A861B90216E0070DE46 /* OperatorButton.m */,
 				A6A59BEC1B8F4B91005E822C /* Main.storyboard */,
 				A6A59BEF1B8F4B91005E822C /* Images.xcassets */,
 				A6A59BF11B8F4B91005E822C /* LaunchScreen.xib */,
@@ -319,10 +309,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A59BEB1B8F4B91005E822C /* ViewController.m in Sources */,
-				A6C01A871B90216E0070DE46 /* OperatorButton.m in Sources */,
 				A6A59BE81B8F4B91005E822C /* AppDelegate.m in Sources */,
 				A6C01A8A1B90236A0070DE46 /* CalculatorButton.m in Sources */,
-				A6C01A841B900A080070DE46 /* NumberButton.m in Sources */,
 				A6A59BE51B8F4B91005E822C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
